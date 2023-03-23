@@ -5,7 +5,7 @@ Nodejs SDK
 
 Npm: https://www.npmjs.com/package/xrplidjs
 
-Github: https://github.com/XRDomains/xrplidjs
+Docs: https://docs.xrpdomains.xyz/developer-guide/xrpl-name-sdk
 
 Before installing the package you need to check and be sure to install the packages below:
 
