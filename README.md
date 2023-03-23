@@ -3,6 +3,8 @@ SDK and API for XRP Web3 Identity
 
 Nodejs SDK
 
+Website: https://xrpdomains.xyz/
+
 Npm: https://www.npmjs.com/package/xrplidjs
 
 Docs: https://docs.xrpdomains.xyz/developer-guide/xrpl-name-sdk
