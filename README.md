@@ -3,7 +3,7 @@ SDK and API for XRP Web3 Identity
 
 Nodejs SDK
 
-Npm: https://www.npmjs.com/package/xrpdomainjs
+Npm: https://www.npmjs.com/package/xrplidjs
 
 Github: https://github.com/XRDomains/XRPDomainJS
 
@@ -16,13 +16,12 @@ npm install xrpl verify-xrpl-signature
 Install Package
 
 ```
-npm install xrpdomainjs
+npm install xrplidjs
 ```
 
 Call 
 ```
-const xrpdomainjs = require('xrpdomainjs');
-const network = 'TESTNET';
+const xrplidjs = require('xrplidjs');
 
 const config = 
 {
@@ -32,7 +31,7 @@ const config =
 }
 
 async function main() {
-	const sdk = xrpdomainjs.SDK(config);	
+	const sdk = xrplidjs.SDK(config);	
 	
   // your xrp domain
 	const domain = "hello.xrp";
