@@ -5,7 +5,7 @@ Nodejs SDK
 
 Npm: https://www.npmjs.com/package/xrplidjs
 
-Github: https://github.com/XRDomains/XRPDomainJS
+Github: https://github.com/XRDomains/xrplidjs
 
 Before installing the package you need to check and be sure to install the packages below:
 
@@ -37,16 +37,16 @@ async function main() {
 	const domain = "hello.xrp";
 		
 	// resolve domain to get the address of the owner.
-	const owner = await sdk.gerAddress(domain);
+	const owner = await sdk.getAddress(domain);
 	
 	console.log(owner);
 	
 	// your address
 	const address = "rLhi87aSCyNW88tW4632yLiwinbghFZNue";
 	
-	const domain = await sdk.getName(address);
+	const _domain = await sdk.getName(address);
 	
-	console.log(domain);
+	console.log(_domain);
 }
 
 main();
